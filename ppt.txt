@@ -1,0 +1,17 @@
+nbviewer
+
+1)Rendering a notbook involves download the notebook from somewhere on the web
+render it to HTML with nbconvert
+
+2)support custom CSS, HTML and JavaScript in notebook. Thus, for highly customized or dynamic notebooks, 
+   nbviewer will still be the ideal place to share them.
+
+
+Binder
+
+Sharing such workflows is essential in the field of bio to work in group 
+and collectively contribute.
+one way to achieve it using Binder.Binder requires a Dockerfile to run a R Jupyter 
+notebook.It contains all the commands to assemble an image.BioCImage is used to create 
+customer DockerFile. 
+ 
